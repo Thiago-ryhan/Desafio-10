@@ -1,0 +1,210 @@
+@font-face{
+  font-family: 'idroid';
+  src: url('fontes/idroid.otf') format('opentype');
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #3cb37160;
+  margin: 0px;
+}
+
+header{
+  color: white;
+  background-image: linear-gradient(to top, #006400, #2E8B57, #00FA9A);
+  padding: 30px;
+  margin: 0px;
+}
+
+
+header > h1, p{
+  font-family: Arial, Helvetica, Sans-serif;
+  text-align: center;
+  margin: 15px;
+}
+
+nav{
+  background-color: #006400;
+  padding: 5px;
+  margin: 0px;
+  box-shadow: 7px 7px 7px #0000005c;
+}
+
+nav > a{
+  color: white;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+
+nav > a:hover{
+  color: #006400;
+  background-color: #00FA9A;
+  margin: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.main{
+  margin: auto;
+  height: 100%;
+  min-width: 320px;
+  max-width: 960px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 0px 10px #4f4f4f88;
+}
+
+.content > h1{
+  font-family: 'idroid';
+  color: #005c00;
+  padding: 20px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  text-indent: 1px;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.content > p{
+  text-indent: 22px;
+  text-align: justify;
+  margin: 15px;
+}
+
+.content{
+  margin: 0px;
+}
+
+strong{
+  color: #005c00;
+  font-weight: bold;
+}
+
+.primeiraver{
+  margin-left: 0px;
+}
+
+h2{
+  font-family: 'idroid';
+  color: #005c00;
+  background-image: linear-gradient(to right, #c2e8d2, white);
+  text-indent: 15px;
+  margin-left: 10px;
+}
+
+.primeiraver > p{
+  text-indent: 22px;
+  text-align: justify;
+  margin-top: 15px;
+  margin: 15px;
+}
+
+.versao a{
+  color: #005c00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.versao::after{
+  content: '📎';
+}
+
+.dan img{
+  width: 96%;
+}
+
+.dan > p{
+  text-indent: 22px;
+  text-align: justify;
+  margin-top: 15px;
+  margin: 15px;
+}
+
+.irina > p{
+  text-indent: 22px;
+  text-align: justify;
+  margin-top: 15px;
+  margin: 15px;
+}
+
+.irina img{
+  padding: 0px;
+  margin: 0px 0px 0px 7px;
+  width: 96%;
+}
+
+.bug{
+  display: block;
+  margin: auto;
+}
+
+footer{
+  background-color: #085a08;
+  padding: 1px;
+  margin-top: 20px;
+  color: white;
+}
+
+footer > p{
+  margin: 0px;
+  padding: 0px;
+}
+
+.box{
+  background-color: #085a08;
+  width: 99%;
+  height: 430px;
+}
+
+.video{
+  width: 98%;
+  margin: 15px 5px 15px 4px;
+  background-color: #085a08;
+}
+
+.box2{
+  background-color: #3cb37160;
+  margin: 6px;
+  width: 96%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #4f4f4f88;
+}
+
+.box2 > .principal{
+  background-color: #3CB371;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: left;
+  padding: 15px;
+  margin: 0px;
+}
+
+.p{
+  text-indent: 25px;
+  text-align: justify;
+  margin: 15px;
+}
+
+.p1{
+  text-indent: 5px;
+  margin: 10px 0px 10px 10px;
+  padding: 10px;
+  columns: 2;
+}
+
+.p1 > li::marker{
+  content: '√ ';
+}
+.fim > p{
+  text-indent: 16px;
+  text-align: justify;
+  padding: 20px 0px 20px 0px;
+  margin: 15px;
+}
